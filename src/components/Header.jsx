@@ -142,11 +142,7 @@ export default function Header() {
       <Container size="xl">
         <div className={classes.inner}>
           <a href="/">
-            <img
-              src="/public/images/logo.svg"
-              className={classes.logo}
-              alt="Logo"
-            />
+            <img src="/images/logo.svg" className={classes.logo} alt="Logo" />
           </a>
           <Group gap={5} visibleFrom="sm">
             {items}

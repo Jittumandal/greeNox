@@ -6,27 +6,27 @@ import Autoplay from "embla-carousel-autoplay";
 
 const slidesData = [
   {
-    image: "/public/images/slider.svg",
+    image: "/images/slider.svg",
     heading: "Welcome to Our Platform",
     buttonText: "Get Started",
   },
   {
-    image: "/public/images/slider1.svg",
+    image: "/images/slider1.svg",
     heading: "Explore Features",
     buttonText: "Learn More",
   },
   {
-    image: "/public/images/slider2.svg",
+    image: "/images/slider2.svg",
     heading: "Join the Community",
     buttonText: "Sign Up",
   },
   {
-    image: "/public/images/slider3.svg",
+    image: "/images/slider3.svg",
     heading: "Stay Updated",
     buttonText: "Subscribe",
   },
   {
-    image: "/public/images/slider4.svg",
+    image: "/images/slider4.svg",
     heading: "Contact Us Today",
     buttonText: "Reach Out",
   },
