@@ -30,6 +30,11 @@ const slidesData = [
     heading: "Contact Us Today",
     buttonText: "Reach Out",
   },
+  {
+    image: "/images/Banner.svg",
+    heading: "Contact Us Today",
+    buttonText: "Reach Out",
+  },
 ];
 
 export default function HeroSection() {

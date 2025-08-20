@@ -13,7 +13,7 @@ import {
 import { useDisclosure } from "@mantine/hooks";
 import { useState } from "react";
 import classes from "./HeaderMenu.module.css";
-import greeNoxlogo from "../assets/logo.svg";
+// import greeNoxlogo from "../assets/logo.png";
 
 const links = [
   { link: "/", label: "Home" },
@@ -142,7 +142,11 @@ export default function Header() {
       <Container size="xl">
         <div className={classes.inner}>
           <a href="/">
-            <img src={greeNoxlogo} className={classes.logo} alt="Logo" />
+            <img
+              src="/images/greenoxLogo.png"
+              className={classes.logo}
+              alt="Logo"
+            />
           </a>
           <Group gap={5} visibleFrom="sm">
             {items}
